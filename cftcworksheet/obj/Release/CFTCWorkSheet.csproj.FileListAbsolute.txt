@@ -1,0 +1,17 @@
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\bin\Release\CFTCWorkSheet.dll
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\bin\Release\CFTCWorkSheet.pdb
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\bin\Release\CFTCWorkSheet.dll.manifest
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\bin\Release\CFTCWorkSheet.vsto
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\bin\Release\CFTC.xlsx
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\bin\Release\Microsoft.Office.Tools.Common.dll
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\bin\Release\Microsoft.Office.Tools.dll
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\bin\Release\Microsoft.Office.Tools.Excel.dll
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\bin\Release\Microsoft.Office.Tools.Excel.v4.0.Utilities.dll
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\bin\Release\Microsoft.Office.Tools.v4.0.Framework.dll
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\bin\Release\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\obj\Release\CFTCWorkSheet.Properties.Resources.resources
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\obj\Release\CFTCWorkSheet.CFTC.resources
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\obj\Release\CFTCWorkSheet.csproj.GenerateResource.Cache
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\obj\Release\CFTCWorkSheet.dll
+E:\learnASP\ExcelAdvanced\GetCFTCAndAnalysis\CFTCWorkSheet\CFTCWorkSheet\obj\Release\CFTCWorkSheet.pdb
