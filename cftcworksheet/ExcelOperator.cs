@@ -46,19 +46,35 @@ namespace CFTCWorkSheet
             _colsCount = xlsWorkSheet.UsedRange.Columns.Count;
         }
 
-        public bool IsNeedUpdate()
+        public bool IsNeedUpdate(DateTime date)
         {
-            DateTime dt = getWeekUpOfDate(DateTime.Today, DayOfWeek.Tuesday, -1);
-            var temp = ((Range)xlsWorkSheet.Cells[6, 1]).Value;
-            bool ret = DateTime.Equals(dt, temp);
-            return !ret;
+            //if today is saterday or sunday, get this week's tuesday date, or return last Tuesday date.
+            //DateTime dt = getWeekUpOfDate(DateTime.Today, DayOfWeek.Tuesday, -1);
+            DateTime thisDate = GetWeekUpOfDate();
+            if (!date.Equals(thisDate))
+            {
+                return false;
+            }
+            DateTime temp = ((Range)xlsWorkSheet.Cells[6, 1]).Value;
+
+            return temp.Equals(thisDate.AddDays(-7));
+           
         }
 
-        public DateTime getWeekUpOfDate(DateTime dt, DayOfWeek weekday, int Number)
+        public DateTime GetWeekUpOfDate()
         {
-            int wd1 = (int)weekday;
-            int wd2 = (int)dt.DayOfWeek;
-            return wd2 == wd1 ? dt.AddDays(7 * Number) : dt.AddDays(7 * Number - wd2 + wd1);
+            DateTime dtToday = DateTime.Now.Date;
+            int wd1 = (int)DayOfWeek.Tuesday;
+            int wd2 = (int)dtToday.DayOfWeek;
+
+            if (dtToday.DayOfWeek == DayOfWeek.Saturday)
+            {
+                return  dtToday.AddDays(wd1 - wd2);
+            }
+            else
+            {
+                return dtToday.AddDays(7 * -1 - wd2 + wd1);
+            }
         }
 
         public bool UpdateData(ref List<int> lst)

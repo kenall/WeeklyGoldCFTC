@@ -42,10 +42,11 @@ namespace CFTCWorkSheet
         {
             DataFetch df = new DataFetch();
             List<int> lstData;
-            df.FetchData(out lstData);
+            DateTime publishedDate;
+            df.FetchData(out lstData, out publishedDate);
             
             ExcelOperator eo = new ExcelOperator();
-            if (eo.IsNeedUpdate())
+            if (eo.IsNeedUpdate(publishedDate))
             {
                 eo.UpdateData(ref lstData);
                 MessageBox.Show("数据更新完毕");
