@@ -1,16 +1,16 @@
-# ╢кн╙в╒йм ╗C ╫╚╠╩ Git ╨Жбт
-# ╨ЖбткЫсп .a ╫Ан╡╣днд╪Ч
+# Ф╜╓Д╦╨ФЁ╗И┤┼ Б─⌠ Е╟├Х╒╚ Git Е©╫Г∙╔
+# Е©╫Г∙╔Ф┴─Ф°┴ .a Г╩⌠Е╟╬Г └Ф√┤Д╩╤
 *.a
-# ╣╚ lib.a ЁЩмБ
+# Д╫├ lib.a И≥╓Е╓√
 !lib.a
-# ╫Ж╫Ж╨ЖбтоНд©╦Ыд©б╪об╣д TODO нд╪Чё╛╡╩╟Эю╗ subdir/TODO
+# Д╩┘Д╩┘Е©╫Г∙╔И║╧Г⌡╝Ф═╧Г⌡╝Е╫∙Д╦▀Г └ TODO Ф√┤Д╩╤О╪▄Д╦█Е▄┘Ф▀╛ subdir/TODO
 /TODO
-# ╨Жбт obj/ д©б╪об╣дкЫспнд╪Ч
+# Е©╫Г∙╔ obj/ Г⌡╝Е╫∙Д╦▀Г └Ф┴─Ф°┴Ф√┤Д╩╤
 obj/
-# ╨Жбт bin/Debug/ д©б╪об╣дкЫспнд╪Ч
+# Е©╫Г∙╔ bin/Debug/ Г⌡╝Е╫∙Д╦▀Г └Ф┴─Ф°┴Ф√┤Д╩╤
 bin/Debug/
 bin/Release/
-# ╩А╨Жбт doc/notes.txt ╣╚╡╩╟Эю╗ doc/server/arch.txt
+# Д╪ Е©╫Г∙╔ doc/notes.txt Д╫├Д╦█Е▄┘Ф▀╛ doc/server/arch.txt
 doc/*.txt
 # ignore all .txt files in the doc/ directory
 doc/**/*.txt
